@@ -1,7 +1,10 @@
 spring:
   application:
     name: eureka
-
+    
+server:
+  port: 21211
+  
 eureka:
   client:
     serviceUrl:

@@ -1,3 +1,6 @@
+server:
+  port: 21220
+
 spring:
   application:
     name: redis-server
@@ -9,6 +12,7 @@ spring:
       min-idle: 0
       max-active: 8
       max-wait: 1
+      
 eureka:
   client:
     serviceUrl:

@@ -1,0 +1,6 @@
+server:
+  port: 21230
+
+spring:
+  application:
+    name: ribbon-server

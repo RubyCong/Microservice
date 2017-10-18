@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ribbon-server
+    name: ribbon-service
     
 eureka:
   client:
@@ -13,4 +13,4 @@ eureka:
 
 redis:
   server: 
-    url: http://redis-server
+    url: http://redis-service

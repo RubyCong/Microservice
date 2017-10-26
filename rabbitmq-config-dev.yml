@@ -12,4 +12,4 @@ eureka:
     registry-fetch-interval-seconds: 3
 
 test:
-  name: zhang
+  name: li

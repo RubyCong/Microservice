@@ -12,7 +12,10 @@ spring:
       min-idle: 0
       max-active: 8
       max-wait: 5
-      
+  rabbitmq:
+    host: localhost
+    port: 5672 
+    
 eureka:
   client:
     serviceUrl:

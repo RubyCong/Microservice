@@ -9,3 +9,7 @@ eureka:
     fetchRegistry: false
   instance:
     lease-renewal-interval-in-seconds: 5
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672 

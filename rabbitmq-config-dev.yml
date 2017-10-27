@@ -15,4 +15,4 @@ eureka:
     registry-fetch-interval-seconds: 3
 
 test:
-  name: yin
+  name: cong

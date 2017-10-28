@@ -13,6 +13,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:21211/eureka/
     registry-fetch-interval-seconds: 3
-
 test:
   name: 张小红
+management:
+  security:
+    enabled: false

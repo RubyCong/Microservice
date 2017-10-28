@@ -21,3 +21,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:21211/eureka/
     registry-fetch-interval-seconds: 3
+    
+management:
+  security:
+    enabled: false

@@ -17,3 +17,7 @@ eureka:
 redis:
   server: 
     url: http://redis-service
+    
+management:
+  security:
+    enabled: false

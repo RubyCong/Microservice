@@ -1,9 +1,12 @@
 server:
   port: 21220
+  
 spring:
   profiles:
     active: dev
+    
 ---
+
 spring:
   profile: dev
   application:
@@ -29,6 +32,8 @@ eureka:
 management:
   security:
     enabled: false
+    
 debug: true
+
 logging:
   file: redis.log

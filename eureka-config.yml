@@ -4,6 +4,11 @@ spring:
   profiles:
     active: dev
 ---
+spring:
+  profile: dev
+  rabbitmq:
+    host: localhost
+    port: 5672 
 eureka:
   client:
     serviceUrl:
@@ -12,11 +17,6 @@ eureka:
     fetchRegistry: false
   instance:
     lease-renewal-interval-in-seconds: 5
-spring:
-  profile: dev
-  rabbitmq:
-    host: localhost
-    port: 5672 
 management:
   security:
     enabled: false

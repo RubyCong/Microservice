@@ -1,7 +1,11 @@
 server:
   port: 21230
-
 spring:
+  profiles:
+    active: dev
+---
+spring:
+  profile: dev
   application:
     name: ribbon-service
   rabbitmq:

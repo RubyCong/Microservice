@@ -1,7 +1,11 @@
 server:
   port: 21250
-
 spring:
+  profiles:
+    active: dev
+---
+spring:
+  profile: dev
   application:
     name: rabbitmq-service
   rabbitmq:

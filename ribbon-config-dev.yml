@@ -21,3 +21,6 @@ redis:
 management:
   security:
     enabled: false
+debug: true
+logging:
+  file: eureka.log

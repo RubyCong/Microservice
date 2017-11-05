@@ -1,9 +1,12 @@
 server:
   port: 21230
+  
 spring:
   profiles:
     active: dev
+    
 ---
+
 spring:
   profile: dev
   application:
@@ -25,6 +28,8 @@ redis:
 management:
   security:
     enabled: false
+    
 debug: true
+
 logging:
   file: ribbon.log

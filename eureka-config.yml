@@ -1,8 +1,8 @@
 server:
   port: 21211
 spring:
-  active:
-    profile: dev
+  profiles:
+    active: dev
 ---
 eureka:
   client:

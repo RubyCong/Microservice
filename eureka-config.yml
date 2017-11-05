@@ -1,14 +1,18 @@
 server:
   port: 21211
+  
 spring:
   profiles:
     active: dev
+    
 ---
+
 spring:
   profile: dev
   rabbitmq:
     host: localhost
     port: 5672 
+    
 eureka:
   client:
     serviceUrl:
@@ -17,9 +21,12 @@ eureka:
     fetchRegistry: false
   instance:
     lease-renewal-interval-in-seconds: 5
+    
 management:
   security:
     enabled: false
+    
 debug: true
+
 logging:
   file: eureka.log

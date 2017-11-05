@@ -1,9 +1,12 @@
 server:
   port: 21250
+  
 spring:
   profiles:
     active: dev
+    
 ---
+
 spring:
   profile: dev
   application:
@@ -24,6 +27,8 @@ test:
 management:
   security:
     enabled: false
+    
 debug: true
+
 logging:
   file: rabbitmq.log

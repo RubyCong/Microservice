@@ -23,4 +23,4 @@ management:
     enabled: false
 debug: true
 logging:
-  file: eureka.log
+  file: ribbon.log

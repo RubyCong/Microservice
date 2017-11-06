@@ -15,17 +15,10 @@ spring:
     host: localhost
     port: 5672 
   datasource:
-        name: test
+        driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/mybatis
         username: root
         password: root
-    
-mybatis: 
-  mapperLocations: mapper/*.xml
-  typeAliasesPackage: com.lc.model
-  config: mybatis-config.xml
-  checkConfigLocation: true
-  executorType: SIMPLE
 
 eureka:
   client:

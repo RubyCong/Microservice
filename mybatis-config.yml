@@ -23,7 +23,7 @@ spring:
 mybatis: 
   mapperLocations: mapper/*.xml
   typeAliasesPackage: com.lc.entity
-  config: config/mybatis-config.xml
+  config: config/*.xml
   checkConfigLocation: true
   executorType: SIMPLE
  

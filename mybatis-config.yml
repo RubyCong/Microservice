@@ -23,9 +23,9 @@ spring:
 mybatis: 
   mapperLocations: mapper/*.xml
   typeAliasesPackage: com.lc.entity
-  config: config/*.xml
-  checkConfigLocation: true
-  executorType: SIMPLE
+  #config: config/*.xml
+  #checkConfigLocation: true
+  #executorType: SIMPLE
  
 eureka:
   client:

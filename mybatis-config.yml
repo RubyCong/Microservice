@@ -15,13 +15,13 @@ spring:
     host: localhost
     port: 5672 
   datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/mybatis
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/test
         username: root
         password: root
         
 mybatis: 
-  mapper-locations: classpath:mapper/*.xml
+  #mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.lc.entity
   #config: config/*.xml
   #checkConfigLocation: true

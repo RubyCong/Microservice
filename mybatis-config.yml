@@ -21,8 +21,8 @@ spring:
         password: root
         
 mybatis: 
-  mapperLocations: mapper/*.xml
-  typeAliasesPackage: com.lc.entity
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lc.entity
   #config: config/*.xml
   #checkConfigLocation: true
   #executorType: SIMPLE

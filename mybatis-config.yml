@@ -1,5 +1,5 @@
 server:
-  port: 21220
+  port: 21280
   
 spring:
   profiles:

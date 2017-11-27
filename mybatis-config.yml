@@ -17,6 +17,8 @@ spring:
   datasource:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/test
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/mybatis
         username: root
         password: root
         # 使用druid数据源  
@@ -47,9 +49,15 @@ spring:
         #useGlobalDataSourceStat: true  
         
 mybatis: 
+<<<<<<< HEAD
   #mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.lc.app.entity
   config: mybatis-config.xml
+=======
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lc.entity
+  #config: config/*.xml
+>>>>>>> parent of f5e9443... Update mybatis-config.yml
   #checkConfigLocation: true
   #executorType: SIMPLE
  

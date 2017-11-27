@@ -15,6 +15,7 @@ spring:
     host: localhost
     port: 5672 
   datasource:
+<<<<<<< HEAD
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/test
         driverClassName: com.mysql.jdbc.Driver
@@ -49,6 +50,7 @@ spring:
         #useGlobalDataSourceStat: true  
         
 mybatis: 
+<<<<<<< HEAD
 <<<<<<< HEAD
   #mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.lc.app.entity

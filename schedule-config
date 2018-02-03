@@ -1,0 +1,27 @@
+server:
+  port: 21280
+  
+spring:
+  profiles:
+    active: dev
+    
+---
+
+spring:
+  profile: dev
+  application:
+    name: schedule-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:21211/eureka/
+    registry-fetch-interval-seconds: 3
+    
+management:
+  security:
+    enabled: false
+    
+debug: true
+
+logging:
+  file: mybatis.log
